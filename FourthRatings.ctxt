@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.params=raterID\ numSimilarRaters\ minimalRaters
+comment0.target=java.util.ArrayList\ getSimilarRatings(java.lang.String,\ int,\ int)
+comment0.text=\n\ Method\ getSimilarRatings\n\ Like\ getAverageRatings,\ but\ as\ we\ loop\ through\ each\ rater\ and\ get\ its\ rating,\ average\ is\ \n\ multiplied\ by\ rating.getValue(),\ which\ is\ the\ weight\ for\ the\ given\ rater\n\ \n\ For\ every\ rater,\ get\ their\ similarity\ rating\ to\ the\ given\ parameter\ rater\ id.\ Include\ only\ \n\ those\ raters\ with\ positive\ similarity\ ratings\u2014those\ that\ are\ more\ similar\ to\ rater\ id.\ \n\ Which\ method\ could\ you\ call?\n\ \n\ For\ each\ movie,\ calculate\ a\ weighted\ average\ movie\ rating\ based\ on\:\ Use\ only\ the\ top\ (largest)\ \n\ numSimilarRaters\ raters.\ For\ each\ of\ these\ raters,\ multiply\ their\ similarity\ rating\ by\ the\ \n\ rating\ they\ gave\ that\ movie.\ This\ will\ emphasize\ those\ raters\ who\ are\ closer\ to\ the\ rater\ id,\ \n\ since\ they\ have\ greater\ weights.\ The\ weighted\ average\ movie\ rating\ for\ a\ particular\ movie\ is\ \n\ the\ sum\ of\ these\ weighted\ average\ ratings\ (for\ each\ rater\ multiply\ their\ similarity\ rating\ by\ \n\ their\ rating\ for\ the\ movie),\ divided\ by\ the\ total\ number\ of\ such\ ratings.\n\ \n\ This\ method\ returns\ an\ ArrayList\ of\ Ratings\ for\ movies\ and\ their\ calculated\ weighted\ ratings,\ \n\ in\ sorted\ order.\n\n\ @param\ raterID\ A\ parameter\n\ @param\ numSimilarRaters\ A\ parameter\n\ @param\ minimalRaters\ A\ parameter\n\ @return\ The\ return\ value\n\ \n\ Assumes\ that\ movie\ database\ and\ rater\ database\ have\ been\ initialized\n
+comment1.params=raterID\ numSimilarRaters\ minimalRaters\ filter
+comment1.target=java.util.ArrayList\ getSimilarRatings(java.lang.String,\ int,\ int,\ Filter)
+comment10.params=minimalRaters\ filterCriteria
+comment10.target=java.util.ArrayList\ getAverageRatingsByFilter(int,\ Filter)
+comment2.params=raterID
+comment2.target=java.util.ArrayList\ getSimilarities(java.lang.String)
+comment2.text=\n\ Method\ getSimilarities\n\n\ @param\ raterID\ A\ parameter\n\ @return\ a\ collection\ of\ ratings\ similar\ to\ raterID\n
+comment3.params=r
+comment3.target=java.util.HashMap\ getRaterMap(Rater)
+comment4.params=me\ r
+comment4.target=double\ dotProduct(Rater,\ Rater)
+comment5.params=me\ r
+comment5.target=double\ dotProductX(Rater,\ Rater)
+comment6.params=movieID\ raterList
+comment6.target=int\ numberOfRatingsForMovie(java.lang.String,\ java.util.List)
+comment7.params=movieID\ raterList
+comment7.target=int\ numberOfRatingsForMovieFromRatings(java.lang.String,\ java.util.List)
+comment7.text=\n\ Method\ numberOfRatingsForMovie\n\n\ @param\ movieID\ A\ parameter\n\ @param\ raterList\ A\ parameter\n\ @return\ The\ return\ value\n\ \n\ Assumes\ item\ in\ Rating\ is\ a\ rater\n
+comment8.params=id\ minimalRaters
+comment8.target=double\ getAverageByID(java.lang.String,\ int)
+comment9.params=minimalRaters
+comment9.target=java.util.ArrayList\ getAverageRatings(int)
+numComments=11

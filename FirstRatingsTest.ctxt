@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ setUp()
+comment0.text=\n\ Sets\ up\ the\ test\ fixture.\n\n\ Called\ before\ every\ test\ case\ method.\n
+comment1.params=
+comment1.target=void\ tearDown()
+comment1.text=\n\ Tears\ down\ the\ test\ fixture.\n\n\ Called\ after\ every\ test\ case\ method.\n
+comment2.params=
+comment2.target=void\ testLoadMovies()
+comment3.params=
+comment3.target=void\ testNumberOfMoviesInGenre()
+comment4.params=
+comment4.target=void\ testNumberOfMoviesLongerThan()
+comment5.params=
+comment5.target=void\ testLoadRaters()
+comment6.params=
+comment6.target=void\ testNumberOfRatings()
+comment7.params=
+comment7.target=void\ testRaterWithMostRatings()
+comment8.params=
+comment8.target=void\ testNumberOfRatersPerMovie()
+comment9.params=
+comment9.target=void\ testNumberOfMoviesRated()
+numComments=10

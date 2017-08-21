@@ -1,0 +1,18 @@
+rater_id,movie_id,rating,time
+“Chris”,”Mission Impossible”,7,1381620027
+“Chris”,”The Martian,7,1379466669
+“Chris”, “Pitch Perfect 2”, 7, 1379466669
+“Chris”, “Star Wars: The Force Awakens”, 7, 1379466669
+“Sam”,”Mission Impossible”,4,1381620027
+“Sam”,”The Martian,8,1379466669
+“Sam”, “Pitch Perfect 2”, 8, 1379466669
+“Sam”, “Star Wars: The Force Awakens”, 4, 1379466669
+“Morgan”,”Mission Impossible”,9,1381620027
+“Morgan”,”The Martian,8,1379466669
+“Morgan”, “Pitch Perfect 2”, 7, 1379466669
+“Morgan”, “Star Wars: The Force Awakens”, 7, 1379466669
+“Jesse”,”Mission Impossible”,6,1381620027
+“Jesse”,”The Martian,3,1379466669
+“Jesse”, “Pitch Perfect 2”, 4, 1379466669
+“Jesse”, “Star Wars: The Force Awakens”, 8, 1379466669
+

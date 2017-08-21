@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ printAverageRatings()
+comment1.params=movieFilename\ raterFilename\ minimalRaters
+comment1.target=void\ printAverageRatings(java.lang.String,\ java.lang.String,\ int)
+comment2.params=
+comment2.target=void\ printSimilarRatingsByGenere()
+comment3.params=
+comment3.target=void\ printAverageRatingsByYearAfterAndGenre()
+comment4.params=
+comment4.target=void\ printSimilarRatingsByDirector()
+comment5.params=
+comment5.target=void\ printSimilarRatingsByGenreAndMinutes()
+comment6.params=
+comment6.target=void\ printSimilarRatingsByYearAfterAndMinutes()
+comment7.params=movieFilename\ raterFilename\ year\ genre\ minimalRaters
+comment7.target=void\ printAverageRatingsByYearAfterAndGenre(java.lang.String,\ java.lang.String,\ int,\ java.lang.String,\ int)
+comment8.params=
+comment8.target=void\ printSimilarRatings()
+comment9.params=movieFilename\ raterFilename\ raterId\ minRater\ numSimRaters\ filter
+comment9.target=void\ printSimilarRatings(java.lang.String,\ java.lang.String,\ java.lang.String,\ int,\ int,\ Filter)
+numComments=10
